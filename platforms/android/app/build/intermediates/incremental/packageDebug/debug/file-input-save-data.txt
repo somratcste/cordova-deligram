@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 06 18:06:49 BDT 2018
+#Mon May 07 12:59:09 BDT 2018
 25.file=/home/dev04/Documents/deligram/hello/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/xml/config.xml
 25.base=/home/dev04/Documents/deligram/hello/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 22.set=ASSET
