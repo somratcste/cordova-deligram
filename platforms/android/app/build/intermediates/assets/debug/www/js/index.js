@@ -28,7 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-         window.location="https://www.deligram.com";
+        cordova.InAppBrowser.open('https://www.deligram.com', '_blank', 'location=no');
     },
 
     // Update DOM on a Received Event
@@ -40,7 +40,6 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
     }
 };
 

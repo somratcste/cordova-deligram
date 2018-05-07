@@ -4,7 +4,10 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>HelloWorld</name>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>deligram</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -20,6 +23,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <access origin="https://www.deligram.com*" />
+    <icon platform="android" src="www/img/logo.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
