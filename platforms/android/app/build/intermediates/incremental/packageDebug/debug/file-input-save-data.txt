@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 07 15:51:19 BDT 2018
+#Mon May 07 16:00:47 BDT 2018
 25.file=/home/dev04/Documents/deligram/hello/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-land-hdpi-v4/screen.png
 25.base=/home/dev04/Documents/deligram/hello/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 22.set=ANDROID_RESOURCE

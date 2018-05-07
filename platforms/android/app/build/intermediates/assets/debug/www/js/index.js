@@ -28,7 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        cordova.InAppBrowser.open('https://www.deligram.com', '_blank', 'location=no');
+        cordova.InAppBrowser.open('https://www.deligram.com', '_blank', 'location=no,zoom=no');
     },
 
     // Update DOM on a Received Event
