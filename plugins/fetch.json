@@ -14,5 +14,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-kiosk": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/hkalina/cordova-plugin-kiosk.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

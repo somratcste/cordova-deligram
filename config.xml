@@ -26,5 +26,7 @@
     <access origin="https://agent.deligram.com*" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <icon platform="android" src="www/img/logo.png" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
+    <plugin name="cordova-plugin-kiosk" spec="https://github.com/hkalina/cordova-plugin-kiosk.git" />
     <engine name="android" spec="^7.0.0" />
 </widget>

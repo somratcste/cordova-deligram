@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.deligram.agent" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="KioskPlugin">
+        <param name="android-package" value="jk.cordova.plugin.kiosk.KioskPlugin" />
+    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
-    </feature>
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
     <name>deligram</name>
     <description>
@@ -26,4 +29,5 @@
     <icon platform="android" src="www/img/logo.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
 </widget>

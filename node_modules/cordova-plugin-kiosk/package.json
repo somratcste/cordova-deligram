@@ -1,0 +1,53 @@
+{
+  "_from": "git+https://github.com/hkalina/cordova-plugin-kiosk.git",
+  "_id": "cordova-plugin-kiosk@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-kiosk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/hkalina/cordova-plugin-kiosk.git",
+    "rawSpec": "https://github.com/hkalina/cordova-plugin-kiosk.git",
+    "saveSpec": "git+https://github.com/hkalina/cordova-plugin-kiosk.git",
+    "fetchSpec": "https://github.com/hkalina/cordova-plugin-kiosk.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/hkalina/cordova-plugin-kiosk.git#bf30f1fa37d08c130c86e7c2b00cbca45b1c84a2",
+  "_spec": "https://github.com/hkalina/cordova-plugin-kiosk.git",
+  "_where": "/home/dev04/Documents/cordova/deligram",
+  "author": {
+    "name": "Jan Kalina"
+  },
+  "bugs": {
+    "url": "https://github.com/honza889/cordova-plugin-kiosk/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-kiosk",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to create Cordova application with kiosk mode",
+  "homepage": "https://github.com/honza889/cordova-plugin-kiosk",
+  "keywords": [
+    "cordova",
+    "android",
+    "kiosk",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-kiosk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honza889/cordova-plugin-kiosk.git"
+  },
+  "version": "1.0.0"
+}
