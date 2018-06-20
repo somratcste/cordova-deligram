@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.hello;
+package com.deligram.agent;
 
 public final class R {
   public static final class drawable {

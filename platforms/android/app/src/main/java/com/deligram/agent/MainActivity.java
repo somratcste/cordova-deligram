@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.example.hello;
+package com.deligram.agent;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

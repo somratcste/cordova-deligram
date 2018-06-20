@@ -1,4 +1,4 @@
-com.example.hello
+com.deligram.agent
 int drawable ic_action_next_item 0x7f010000
 int drawable ic_action_previous_item 0x7f010001
 int drawable ic_action_remove 0x7f010002
